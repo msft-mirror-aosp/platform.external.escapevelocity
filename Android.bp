@@ -21,8 +21,9 @@ license {
     ],
 }
 
-java_library_host {
+java_library {
     name: "escapevelocity",
     srcs: ["src/main/**/*.java"],
     libs: ["guava"],
+    host_supported: true,
 }
