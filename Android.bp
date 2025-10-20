@@ -23,7 +23,8 @@ license {
 
 java_library {
     name: "escapevelocity",
+    defaults: ["error_prone_dependency_defaults"],
+    host_supported: true,
     srcs: ["src/main/**/*.java"],
     libs: ["guava"],
-    host_supported: true,
 }
